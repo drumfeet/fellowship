@@ -1,4 +1,6 @@
 import Banner from "@/components/Banner"
+import Judges from "@/components/Judges"
+import Partner from "@/components/Partner"
 import Head from "next/head"
 
 export default function Home() {
@@ -8,7 +10,9 @@ export default function Home() {
         <title>WeaveDB Fellows</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Banner/>
+      <Banner />
+      <Partner />
+      <Judges />
     </>
   )
 }

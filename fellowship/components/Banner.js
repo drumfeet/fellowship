@@ -1,7 +1,10 @@
-import { Icon } from "@chakra-ui/react"
-
+import { Center, Icon } from "@chakra-ui/react"
 export default function Banner() {
-  return <Illustration />
+  return (
+    <>
+      <Illustration />
+    </>
+  )
 }
 
 export const Illustration = () => {
