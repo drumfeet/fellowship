@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner"
+import Blog from "@/components/Blog"
 import Hero from "@/components/Hero"
 import Judges from "@/components/Judges"
 import Partner from "@/components/Partner"
@@ -15,6 +16,7 @@ export default function Home() {
       <Banner />
       <Partner />
       <Judges />
+      <Blog/>
     </>
   )
 }
