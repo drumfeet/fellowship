@@ -4,6 +4,7 @@ import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
 import Judges from "@/components/Judges"
 import Partner from "@/components/Partner"
+import { Box, Center, Flex } from "@chakra-ui/react"
 import Head from "next/head"
 
 export default function Home() {
@@ -13,12 +14,14 @@ export default function Home() {
         <title>WeaveDB Fellows</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
-      <Banner />
-      <Partner />
-      <Judges />
-      <Blog />
-      <Footer />
+      <Box direction="column" align="center" bg="#FCF9FF">
+        <Hero />
+        <Banner />
+        <Partner />
+        <Judges />
+        <Blog />
+        <Footer />
+      </Box>
     </>
   )
 }
