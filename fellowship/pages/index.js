@@ -11,7 +11,7 @@ export default function Home() {
         <title>WeaveDB Fellows</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero/>
+      <Hero />
       <Banner />
       <Partner />
       <Judges />
