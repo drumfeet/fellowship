@@ -48,7 +48,6 @@ export const Illustration = () => {
         <g filter="url(#filter1_d_17_2488)">
           <rect x="773" y="197" width="517" height="136" fill="white" />
           <image
-            opacity="0.85"
             x="813"
             y="221"
             width="88"
@@ -65,7 +64,6 @@ export const Illustration = () => {
         <g filter="url(#filter2_d_17_2488)">
           <rect x="224" y="373" width="521" height="136" fill="white" />
           <image
-            opacity="0.85"
             x="264"
             y="397"
             width="88"
@@ -82,7 +80,6 @@ export const Illustration = () => {
         <g filter="url(#filter3_d_17_2488)">
           <rect x="769" y="373" width="521" height="136" fill="white" />
           <image
-            opacity="0.85"
             x="809"
             y="397"
             width="88"
