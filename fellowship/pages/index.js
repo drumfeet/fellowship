@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <Head>
         <title>WeaveDB Fellows</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/weavedb.ico" />
       </Head>
       <Box direction="column" align="center" bg="#FCF9FF">
         <Hero />
