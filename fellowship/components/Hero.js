@@ -1,4 +1,5 @@
-import { Button } from "@chakra-ui/react"
+import { ArrowLeftIcon } from "@chakra-ui/icons"
+import { Button, IconButton, Link } from "@chakra-ui/react"
 export default function Hero() {
   return (
     <>
@@ -408,6 +409,30 @@ export const Illustration = () => {
             </filter>
           </defs>
         </svg>
+        <Link href="https://weavedb.dev">
+          <IconButton
+            icon={<ArrowLeftIcon />}
+            p="14px"
+            bg="rgba(0, 0, 0, 0.3)"
+            color="white"
+            border="1px solid #CEB7FF"
+            borderRadius="4px"
+            fontWeight="400"
+            fontSize="14px"
+            position="absolute"
+            top="40px"
+            left="100%"
+            transform="translateX(-50%)"
+            mx="-95%"
+            _hover={{
+              fontWeight: "1600",
+              borderColor: "white",
+              borderWidth: "2px",
+              boxShadow: "10px 10px 0px rgba(0, 0, 0, 0.3)",
+              bg: "rgba(0, 0, 0, 0.3)",
+            }}
+          />
+        </Link>
         <Button
           p="32px"
           bg="rgba(0, 0, 0, 0.3)"
