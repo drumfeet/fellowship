@@ -410,20 +410,20 @@ export const Illustration = () => {
           </defs>
         </svg>
         <Link href="https://weavedb.dev">
-          <IconButton
-            icon={<ArrowLeftIcon />}
+          <Button
+            leftIcon={<ArrowLeftIcon />}
             p="14px"
             bg="rgba(0, 0, 0, 0.3)"
             color="white"
             border="1px solid #CEB7FF"
             borderRadius="4px"
             fontWeight="400"
-            fontSize="14px"
+            fontSize="16px"
             position="absolute"
             top="40px"
             left="100%"
             transform="translateX(-50%)"
-            mx="-95%"
+            mx="-94%"
             _hover={{
               fontWeight: "1600",
               borderColor: "white",
@@ -431,7 +431,9 @@ export const Illustration = () => {
               boxShadow: "10px 10px 0px rgba(0, 0, 0, 0.3)",
               bg: "rgba(0, 0, 0, 0.3)",
             }}
-          />
+          >
+            Back
+          </Button>
         </Link>
         <Button
           p="32px"
