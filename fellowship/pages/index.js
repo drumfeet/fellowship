@@ -12,9 +12,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WeaveDB Fellowsss</title>
+        <title>WeaveDB Fellows</title>
         <link rel="icon" href="/weavedb.svg" />
       </Head>
+      Home
       <Box direction="column" align="center" bg="#FCF9FF">
         <Hero />
         <Banner />
