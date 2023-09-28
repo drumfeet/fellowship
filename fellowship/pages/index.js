@@ -12,8 +12,33 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WeaveDB Fellows</title>
+        <title>WeaveDB</title>
+        <meta name="description" content="NoSQL Database as a Smart Contract" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/weavedb.svg" />
+
+        <meta property="og:url" content="https://fellows.weavedb.dev" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="WeaveDB" />
+        <meta
+          property="og:description"
+          content="NoSQL Database as a Smart Contract"
+        />
+        <meta
+          property="og:image"
+          content="https://weavedb.dev/twitterImage.png"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="WeaveDB" />
+        <meta
+          name="twitter:description"
+          content="NoSQL Database as a Smart Contract"
+        />
+        <meta
+          name="twitter:image"
+          content="https://weavedb.dev/twitterImage.png"
+        />
       </Head>
       <Box direction="column" align="center" bg="#FCF9FF">
         <Hero />
