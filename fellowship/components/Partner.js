@@ -10,6 +10,7 @@ export const PartnersList = ({ imageSrc, children }) => (
       border="1px"
       paddingY="24px"
       paddingX="40px"
+      boxShadow="4px 4px 0px black"
     >
       <Image borderRadius="full" boxSize="80px" src={imageSrc} />
       <Text paddingLeft="24px" fontSize="32px" fontWeight="500">
