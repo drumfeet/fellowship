@@ -1,5 +1,4 @@
-import { CheckIcon } from "@chakra-ui/icons"
-import { Flex, Icon, Image, Spacer, Text } from "@chakra-ui/react"
+import { Flex, Image, Text } from "@chakra-ui/react"
 import PartnerIcon from "./images/icons/partner"
 
 export const PartnersList = ({ imageSrc, children }) => (
@@ -32,13 +31,13 @@ export const PartnersList = ({ imageSrc, children }) => (
 export default function Partner() {
   return (
     <>
-      <Flex flexDirection="column" paddingY="93px" paddingX="185px">
-        <Flex
-          display={{ base: "none", md: "flex" }}
-          justifyContent="space-between"
-          paddingRight="32px"
-        >
-          <Spacer />
+      <Flex
+        flexDirection="column"
+        paddingY="93px"
+        paddingX="185px"
+        justifyContent="center"
+      >
+        <Flex display={{ base: "none", md: "flex" }} justifyContent="flex-end">
           <PartnerIcon />
         </Flex>
 

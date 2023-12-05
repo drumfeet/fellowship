@@ -1,6 +1,5 @@
-import { CheckIcon } from "@chakra-ui/icons"
-import { Flex, Icon, Image, Spacer, Text } from "@chakra-ui/react"
-import PartnerIcon from "./images/icons/partner"
+import { Flex, Image, Text } from "@chakra-ui/react"
+import { EcosystemIcon, JudgesIcon } from "./images/icons/icons"
 
 export const EcosystemList = ({ imageSrc, children }) => (
   <>
@@ -28,14 +27,19 @@ export const EcosystemList = ({ imageSrc, children }) => (
 export default function Ecosystem() {
   return (
     <>
-      <Flex flexDirection="column" paddingY="93px" paddingX="185px">
+      <Flex
+        paddingY="93px"
+        paddingX="185px"
+        justifyContent="center"
+        position="relative"
+      >
         <Flex
+          position="absolute"
+          left="66px"
+          top="262px"
           display={{ base: "none", md: "flex" }}
-          justifyContent="space-between"
-          paddingRight="32px"
         >
-          <Spacer />
-          <PartnerIcon />
+          <JudgesIcon />
         </Flex>
 
         <Flex flexDirection="column" gap="32px" alignItems="center">
@@ -81,6 +85,15 @@ export default function Ecosystem() {
               </EcosystemList>
             </Flex>
           </Flex>
+        </Flex>
+
+        <Flex
+          display={{ base: "none", md: "flex" }}
+          position="absolute"
+          right="47px"
+          top="523px"
+        >
+          <EcosystemIcon />
         </Flex>
       </Flex>
     </>

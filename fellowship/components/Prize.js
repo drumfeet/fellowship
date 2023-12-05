@@ -33,7 +33,7 @@ export default function Prize() {
         </Flex>
 
         <Flex
-          display={{ base: "none", md: "flex" }}
+          // display={{ base: "none", md: "flex" }}
           position="absolute"
           right="0"
         >
