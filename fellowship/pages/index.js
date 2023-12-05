@@ -46,6 +46,7 @@ export default function Home() {
       <Flex flexDirection="column" bg="#FCF9FF">
         <Prize />
         <Partner />
+        <Judges />
       </Flex>
     </>
   )
