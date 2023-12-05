@@ -11,6 +11,7 @@ export const PartnersList = ({ imageSrc, children }) => (
       paddingY="24px"
       paddingX="40px"
       boxShadow="4px 4px 0px black"
+      minW="clamp(16.0625rem, 30vw, 32.125rem)"
     >
       <Image
         borderRadius="full"
