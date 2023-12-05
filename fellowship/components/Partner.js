@@ -57,7 +57,11 @@ export default function Partner() {
           </Flex>
 
           <Flex flexDirection={{ base: "column", md: "row" }} gap="40px">
-            <Flex flexDirection="column" gap="40px" paddingX="28px">
+            <Flex
+              flexDirection="column"
+              gap="40px"
+              // minW="clamp(16.0625rem, 28vw, 32.125rem)"
+            >
               <PartnersList imageSrc="https://drive.google.com/uc?id=14Bno0iYxOLVjgsG5p0vZJx8Wpam86dQH">
                 Arweave
               </PartnersList>
@@ -68,7 +72,11 @@ export default function Partner() {
                 Lit protocol
               </PartnersList>
             </Flex>
-            <Flex flexDirection="column" gap="40px" paddingX="28px">
+            <Flex
+              flexDirection="column"
+              gap="40px"
+              // minW="clamp(16.0625rem, 28vw, 32.125rem)"
+            >
               <PartnersList imageSrc="https://drive.google.com/uc?id=17Q5-xD9F6jSnxEngEpr0oLvRrHsVq5YQ">
                 Fleek
               </PartnersList>
