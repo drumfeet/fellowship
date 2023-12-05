@@ -1,12 +1,11 @@
-import { CheckIcon } from "@chakra-ui/icons"
-import { Flex, Icon, Image, Spacer, Text } from "@chakra-ui/react"
+import { Flex, Image, Spacer, Text } from "@chakra-ui/react"
 import PartnerIcon from "./images/icons/partner"
 
 export const JudgesList = ({ imageSrc, title, children }) => (
   <>
     <Flex
       flexDirection="row"
-      alignItems="center"
+      // alignItems="center"
       border="1px"
       paddingY="24px"
       paddingX="40px"
@@ -14,19 +13,12 @@ export const JudgesList = ({ imageSrc, title, children }) => (
       minW="clamp(16.0625rem, 30vw, 32.125rem)"
     >
       <Image boxSize="clamp(2.5rem, 5vw, 5rem)" src={imageSrc} />
-      <Flex flexDirection="column">
-        <Text
-          paddingLeft="24px"
-          fontWeight="500"
-          fontSize="clamp(1rem, 5vw, 2rem)"
-        >
+
+      <Flex flexDirection="column" paddingLeft="24px" justifyContent="center">
+        <Text fontWeight="500" fontSize="clamp(1rem, 5vw, 2rem)">
           {children}
         </Text>
-        <Text
-          paddingLeft="24px"
-          fontWeight="300"
-          fontSize="clamp(0.625rem, 5vw, 1.25rem)"
-        >
+        <Text fontWeight="300" fontSize="clamp(0.25rem, 5vw, 1rem)">
           {title}
         </Text>
       </Flex>
@@ -62,7 +54,11 @@ export default function Judges() {
           </Flex>
 
           <Flex flexDirection={{ base: "column", md: "row" }} gap="40px">
-            <Flex flexDirection="column" gap="40px" paddingX="28px">
+            <Flex
+              flexDirection="column"
+              gap="40px"
+              minW="clamp(16.0625rem, 28vw, 32.125rem)"
+            >
               <JudgesList
                 imageSrc="https://drive.google.com/uc?id=1pkLk5_ibn-7D1ISI2VpnvyNZpdY8H-bF"
                 title="WeaveDB"
@@ -88,7 +84,11 @@ export default function Judges() {
                 Nader Dabit
               </JudgesList>
             </Flex>
-            <Flex flexDirection="column" gap="40px" paddingX="28px">
+            <Flex
+              flexDirection="column"
+              gap="40px"
+              minW="clamp(16.0625rem, 28vw, 32.125rem)"
+            >
               <JudgesList
                 imageSrc="https://drive.google.com/uc?id=1KymlT4B8aB9UsxTWod7WsoI3s_BGoAIb"
                 title="Deformapp"

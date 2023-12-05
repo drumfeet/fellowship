@@ -47,6 +47,7 @@ export default function Home() {
         <Prize />
         <Partner />
         <Judges />
+        <Ecosystem />
       </Flex>
     </>
   )
