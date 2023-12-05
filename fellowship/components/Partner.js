@@ -12,8 +12,16 @@ export const PartnersList = ({ imageSrc, children }) => (
       paddingX="40px"
       boxShadow="4px 4px 0px black"
     >
-      <Image borderRadius="full" boxSize="80px" src={imageSrc} />
-      <Text paddingLeft="24px" fontSize="32px" fontWeight="500">
+      <Image
+        borderRadius="full"
+        boxSize="clamp(2.5rem, 5vw, 5rem)"
+        src={imageSrc}
+      />
+      <Text
+        paddingLeft="24px"
+        fontWeight="500"
+        fontSize="clamp(1rem, 5vw, 2rem)"
+      >
         {children}
       </Text>
     </Flex>
@@ -37,7 +45,7 @@ export default function Partner() {
           <Flex>
             <Text
               textAlign="center"
-              fontSize="32px"
+              fontSize="clamp(1rem, 5vw, 2rem)"
               paddingX="24px"
               paddingY="12px"
               borderRadius="32px"

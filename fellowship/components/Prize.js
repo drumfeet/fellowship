@@ -23,14 +23,11 @@ export default function Prize() {
           <Heading
             fontStyle="italic"
             fontWeight="600"
-            style={{ fontSize: "clamp(3rem, 5vw, 6rem);" }}
+            fontSize="clamp(3rem, 5vw, 6rem)"
           >
             $ 22,000
           </Heading>
-          <Text
-            fontWeight="500"
-            style={{ fontSize: "clamp(1rem, 5vw, 2rem);" }}
-          >
+          <Text fontWeight="500" fontSize="clamp(1rem, 5vw, 2rem)">
             Prize pool
           </Text>
         </Flex>
