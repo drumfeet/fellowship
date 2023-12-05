@@ -73,7 +73,19 @@ export default function Blog() {
                 </Text>
 
                 <Flex paddingTop="24px" paddingBottom="49px">
-                  <Button>Read now</Button>
+                  <Button
+                    color="white"
+                    bg="black"
+                    _hover="none"
+                    onClick={() =>
+                      window.open(
+                        "https://medium.com/weavedb/introducing-weavedb-fellows-7ccfadabd208",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Read now
+                  </Button>
                 </Flex>
               </Flex>
 

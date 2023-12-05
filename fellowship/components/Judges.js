@@ -29,7 +29,7 @@ export const JudgesList = ({ imageSrc, title, children }) => (
 export default function Judges() {
   return (
     <>
-      <Flex flexDirection="column" paddingY="93px">
+      <Flex flexDirection="column" paddingY="93px" paddingX="185px">
         <Flex
           display={{ base: "none", md: "flex" }}
           justifyContent="space-between"
