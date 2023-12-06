@@ -76,7 +76,17 @@ export default function Blog() {
                   <Button
                     color="white"
                     bg="black"
-                    _hover="none"
+                    py="16px"
+                    px="20px"
+                    borderRadius="0"
+                    fontWeight="400"
+                    fontSize="clamp(0.4375rem, 5vw, 0.875rem)"
+                    _hover={{
+                      borderColor: "white",
+                      borderWidth: "1px",
+                      boxShadow: "4px 4px 0px #000000",
+                      bg: "black",
+                    }}
                     onClick={() =>
                       window.open(
                         "https://medium.com/weavedb/introducing-weavedb-fellows-7ccfadabd208",
