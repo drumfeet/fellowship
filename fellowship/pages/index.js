@@ -1,7 +1,5 @@
-import Banner from "@/components/Banner"
 import Blog from "@/components/Blog"
 import Ecosystem from "@/components/Ecosystem"
-import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
 import Judges from "@/components/Judges"
 import Partner from "@/components/Partner"
@@ -44,6 +42,7 @@ export default function Home() {
       </Head>
 
       <Flex flexDirection="column" bg="#FCF9FF">
+        <Hero />
         <Prize />
         <Partner />
         <Judges />
