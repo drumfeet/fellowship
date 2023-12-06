@@ -1,5 +1,6 @@
 import Blog from "@/components/Blog"
 import Ecosystem from "@/components/Ecosystem"
+import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
 import Judges from "@/components/Judges"
 import Partner from "@/components/Partner"
@@ -48,6 +49,7 @@ export default function Home() {
         <Judges />
         <Ecosystem />
         <Blog />
+        <Footer />
       </Flex>
     </>
   )

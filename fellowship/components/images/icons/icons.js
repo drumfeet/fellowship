@@ -181,7 +181,12 @@ export function WeaveDBLogoText(props) {
 }
 
 export function WeaveDBLogo(props) {
-  const { width = "900", height = "576", style = {} } = props
+  const {
+    width = "900",
+    height = "576",
+    color = "currentColor",
+    style = {},
+  } = props
   return (
     <>
       <svg
@@ -193,51 +198,51 @@ export function WeaveDBLogo(props) {
       >
         <rect
           x="0.955078"
-          y="125.81"
+          y="125.812"
           width="177.923"
           height="177.923"
-          transform="rotate(-45 0.955078 125.81)"
-          fill="white"
+          transform="rotate(-45 0.955078 125.812)"
+          fill="#9C89F6"
         />
         <rect
           x="162.711"
-          y="287.564"
+          y="287.566"
           width="177.923"
           height="177.923"
-          transform="rotate(-45 162.711 287.564)"
-          fill="white"
+          transform="rotate(-45 162.711 287.566)"
+          fill="#9C89F6"
         />
         <rect
           x="324.467"
-          y="125.81"
+          y="125.812"
           width="177.923"
           height="177.923"
-          transform="rotate(-45 324.467 125.81)"
-          fill="white"
+          transform="rotate(-45 324.467 125.812)"
+          fill="#9C89F6"
         />
         <rect
           x="324.467"
-          y="449.32"
+          y="449.322"
           width="177.923"
           height="177.923"
-          transform="rotate(-45 324.467 449.32)"
-          fill="white"
+          transform="rotate(-45 324.467 449.322)"
+          fill="#5137C5"
         />
         <rect
           x="486.224"
-          y="287.564"
+          y="287.566"
           width="177.923"
           height="177.923"
-          transform="rotate(-45 486.224 287.564)"
-          fill="white"
+          transform="rotate(-45 486.224 287.566)"
+          fill="#5137C5"
         />
         <rect
           x="647.979"
-          y="125.81"
+          y="125.812"
           width="177.923"
           height="177.923"
-          transform="rotate(-45 647.979 125.81)"
-          fill="white"
+          transform="rotate(-45 647.979 125.812)"
+          fill="#5137C5"
         />
       </svg>
     </>
