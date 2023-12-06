@@ -12,13 +12,13 @@ export const JudgesList = ({ imageSrc, title, children }) => (
       boxShadow="4px 4px 0px black"
       minW="clamp(16.0625rem, 30vw, 32.125rem)"
     >
-      <Image boxSize="clamp(2.5rem, 5vw, 5rem)" src={imageSrc} />
+      <Image boxSize="clamp(4rem, 5vw, 5rem)" src={imageSrc} />
 
       <Flex flexDirection="column" paddingLeft="24px" justifyContent="center">
         <Text fontWeight="500" fontSize="clamp(1rem, 5vw, 2rem)">
           {children}
         </Text>
-        <Text fontWeight="300" fontSize="clamp(0.25rem, 5vw, 1rem)">
+        <Text fontWeight="300" fontSize="clamp(0.5rem, 5vw, 1rem)">
           {title}
         </Text>
       </Flex>
@@ -77,13 +77,13 @@ export default function Judges() {
                 Alysia Huggins
               </JudgesList>
               <JudgesList
-                imageSrc="https://drive.google.com/uc?id=1MYma0CPeToH1hFjjfQY5_L2-VcK5Myse"
+                imageSrc="https://drive.google.com/uc?id=1XDE9Xl7C_aHGOsUQBJuE2QU_4Tib0tDc"
                 title="Ankr"
               >
                 Krinza Momen
               </JudgesList>
               <JudgesList
-                imageSrc="https://drive.google.com/uc?id=1XDE9Xl7C_aHGOsUQBJuE2QU_4Tib0tDc"
+                imageSrc="https://drive.google.com/uc?id=14R-ALhg3ZqhQKWF7WfqEK3mXsDAa3lLo"
                 title="AAVE and Lens Protocol"
               >
                 Nader Dabit
