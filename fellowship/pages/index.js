@@ -16,7 +16,7 @@ export default function Home() {
         <title>WeaveDB Fellows</title>
         <meta name="description" content="NoSQL Database as a Smart Contract" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
 
         <meta property="og:url" content="https://fellows.weavedb.dev" />
         <meta property="og:type" content="website" />
