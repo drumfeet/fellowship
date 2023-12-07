@@ -5,8 +5,10 @@ import {
   VisuallyHidden,
   Link,
   chakra,
+  Spacer,
 } from "@chakra-ui/react"
 import { FaGithub, FaTwitter } from "react-icons/fa"
+import { WeaveDBLogo } from "./images/icons/icons"
 
 export default function Footer() {
   const SocialButton = ({ children, label, href }) => {
@@ -33,47 +35,32 @@ export default function Footer() {
   return (
     <>
       <Flex
-        direction="column"
+        flexDirection="row"
+        justifyContent="space-between"
         alignItems="center"
-        w={1511}
-        h={120}
-        bg="#FCF9FF"
-        gap={64}
+        paddingBottom="93px"
+        paddingX={{ base: "24px", md: "185px" }}
       >
-        <Flex
-          direction="column"
-          alignItems="center"
-          px={32}
-          gap={32}
-          w={1280}
-          h={24}
-        >
-          <Flex
-            direction="row"
-            justifyContent="space-between"
-            alignItems="center"
-            p={0}
-            w={1216}
-            h={24}
+        <Text fontWeight="400" fontSize="16px">
+          <Link
+            href="https://weavedb.dev"
+            isExternal
+            textDecoration="underline"
           >
-            <Text alignItems="flex-start" fontWeight="400" fontSize="16px">
-              <Link
-                href="https://weavedb.dev"
-                isExternal
-                textDecoration="underline"
-              >
-                WeaveDB
-              </Link>
-            </Text>
-            <Stack direction={"row"} spacing="28px">
-              <SocialButton href="https://twitter.com/weave_db">
-                <FaTwitter />
-              </SocialButton>
-              <SocialButton href={"https://github.com/weavedb/weavedb"}>
-                <FaGithub />
-              </SocialButton>
-            </Stack>
-          </Flex>
+            WeaveDB
+          </Link>
+        </Text>
+
+        <Flex gap="24px">
+          <SocialButton href="https://twitter.com/weave_db">
+            <FaTwitter />
+          </SocialButton>
+          <SocialButton href={"https://github.com/weavedb/weavedb"}>
+            <FaGithub />
+          </SocialButton>
+          <SocialButton href={"https://weavedb.dev"}>
+            <WeaveDBLogo width="20px" height="20px" color="black" />
+          </SocialButton>
         </Flex>
       </Flex>
     </>
