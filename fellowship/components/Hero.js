@@ -6,7 +6,7 @@ import { ArrowLeftIcon } from "@chakra-ui/icons"
 
 export default function Hero() {
   return (
-    <Flex width="100vw" height="100vh" flexDirection="column">
+    <Flex width="full" height="100vh" flexDirection="column">
       <Box position="relative" width="full" height="full">
         <Image
           src="https://drive.google.com/uc?id=1RVz95hO0hdQl7AgvpSJGcvatsOpdgkQm"
